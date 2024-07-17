@@ -219,7 +219,6 @@ body {
   justify-content: center;
   align-items: center;
   position: relative;
-  animation: mv 1s 0.5s both;
 }
 
 .mv-img {
