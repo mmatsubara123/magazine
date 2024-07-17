@@ -6,22 +6,3 @@
     box-sizing: border-box;
 }
 
-img {
-    display: block;
-    max-width: 100%;
-}
-
-html {
-    font-size: .825rem;
-}
-
-body {
-    font-family: var(--ff-primary);
-    padding-top: 60px;
-}
-
-@include mq {
-    body {
-        padding-top: 0;
-    }
-}
