@@ -362,21 +362,24 @@ img {
 }
 
 .backnumber-issue {
+
     flex-basis: 100%;
     padding: 40px 20px;
-
+    background-color: #f8f8f8;
 }
+
 
 .backnumber-list li a img {
     max-width: 300px;
     width: 50%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
     margin: 0 auto;
 }
 
 .backnumber-list li a {
     text-decoration: none;
     color: var(--text-black);
+
 
     .date,
     .num {
@@ -385,29 +388,36 @@ img {
 }
 
 
-.backnumber-issue {
 
-    .no-101 {
-        background-color: #ecf4f9;
-    }
 
-    .no-100 {
-        background-color: #fbf3d2;
-    }
+.no-101 {
+    background-color: #ecf4f9;
+}
 
-    .no-99 {
-        background-color: #f9f2eb;
-    }
+.no-100 {
+    background-color: #fbf3d2;
+}
 
-    .no-98 {
-        background-color: #fae8c2;
-    }
+.no-99 {
+    background-color: #f9f2eb;
+}
 
-    .no-97 {
-        background-color: #e2efe7;
-    }
+.no-98 {
+    background-color: #fae8c2;
+}
 
-    .no-96 {
-        background-color: #f2f5fb;
+.no-97 {
+    background-color: #e2efe7;
+}
+
+.no-96 {
+    background-color: #f2f5fb;
+}
+
+@include mq {
+    .backnumber-issue {
+        flex: 0 0 50%;
+        box-sizing: border-box;
+        padding: 60px 40px;
     }
 }
